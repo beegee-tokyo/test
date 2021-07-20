@@ -1,11 +1,11 @@
 {
 	"packages": [
 		{
-			"name": "rakwireless",
+			"name": "rak_test",
 			"maintainer": "RAKwireless",
 			"websiteURL": "https://RAKwireless.com",
 			"email": "inquiry@RAKwireless.com",
-			"description": "Board Support Package for RAKwireless WisBlock Core modules. Checkout examples on https://github.com/RAKWireless/WisBlock/tree/master/examples. Get more information from http://rakwireless.com",
+			"description": "_test Board Support Package for RAKwireless WisBlock Core modules. Checkout examples on https://github.com/RAKWireless/WisBlock/tree/master/examples. Get more information from http://rakwireless.com",
 			"help": {
 				"online": "https://forum.rakwireless.com"
 			},
@@ -21,20 +21,20 @@
 					"size": "18990045",
 					"boards": [
 						{
-							"name": "RAK4631"
+							"name": "RAK4631_test"
 						},
 						{
-							"name": "RAK4601"
+							"name": "RAK4601_test"
 						}
 					],
 					"toolsDependencies": [
 						{
-							"packager": "rakwireless",
+							"packager": "rak_test",
 							"name": "arm-none-eabi-gcc",
 							"version": "9-2019q4"
 						},
 						{
-							"packager": "rakwireless",
+							"packager": "rak_test",
 							"name": "nrfjprog",
 							"version": "9.4.0"
 						}
@@ -59,12 +59,12 @@
 					],
 					"toolsDependencies": [
 						{
-							"packager": "rakwireless",
+							"packager": "rak_test",
 							"name": "arm-none-eabi-gcc",
 							"version": "9-2019q4"
 						},
 						{
-							"packager": "rakwireless",
+							"packager": "rak_test",
 							"name": "nrfjprog",
 							"version": "9.4.0"
 						}
@@ -92,12 +92,12 @@
 					],
 					"toolsDependencies": [
 						{
-							"packager": "rakwireless",
+							"packager": "rak_test",
 							"name": "arm-none-eabi-gcc",
 							"version": "9-2019q4"
 						},
 						{
-							"packager": "rakwireless",
+							"packager": "rak_test",
 							"name": "nrfjprog",
 							"version": "9.4.0"
 						}
@@ -122,12 +122,12 @@
 					],
 					"toolsDependencies": [
 						{
-							"packager": "rakwireless",
+							"packager": "rak_test",
 							"name": "arm-none-eabi-gcc",
 							"version": "9-2019q4"
 						},
 						{
-							"packager": "rakwireless",
+							"packager": "rak_test",
 							"name": "nrfjprog",
 							"version": "9.4.0"
 						}
@@ -152,12 +152,12 @@
 					],
 					"toolsDependencies": [
 						{
-							"packager": "rakwireless",
+							"packager": "rak_test",
 							"name": "arm-none-eabi-gcc",
 							"version": "9-2019q4"
 						},
 						{
-							"packager": "rakwireless",
+							"packager": "rak_test",
 							"name": "nrfjprog",
 							"version": "9.4.0"
 						}
@@ -177,22 +177,22 @@
 					},
 					"boards": [
 						{
-							"name": "RAK11200"
+							"name": "RAK11200_test"
 						}
 					],
 					"toolsDependencies": [
 						{
-							"packager": "rakwireless",
+							"packager": "rak_test",
 							"name": "xtensa-esp32-elf-gcc",
 							"version": "1.22.0-97-gc752ad5-5.2.0"
 						},
 						{
-							"packager": "rakwireless",
+							"packager": "rak_test",
 							"name": "esptool_py",
 							"version": "3.0.0"
 						},
 						{
-							"packager": "rakwireless",
+							"packager": "rak_test",
 							"name": "mkspiffs",
 							"version": "0.2.3"
 						}
