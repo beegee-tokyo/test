@@ -37,6 +37,11 @@
 							"packager": "rak_test",
 							"name": "nrfjprog",
 							"version": "9.4.0"
+						},
+						{
+							"packager": "rak_test",
+							"name": "CMSIS",
+							"version": "5.4.0"
 						}
 					]
 				},
@@ -67,6 +72,11 @@
 							"packager": "rak_test",
 							"name": "nrfjprog",
 							"version": "9.4.0"
+						},
+						{
+							"packager": "rak_test",
+							"name": "CMSIS",
+							"version": "5.4.0"
 						}
 					]
 				},
@@ -356,6 +366,61 @@
 				}
 			],
 			"tools": [
+				{
+					"name": "CMSIS",
+					"version": "5.7.0",
+					"systems": [
+						{
+							"host": "i686-mingw32",
+							"url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/ARM.CMSIS.5.7.0.zip",
+							"archiveFileName": "ARM.CMSIS.5.7.0.zip",
+							"checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
+							"size": "117164633"
+						},
+						{
+							"host": "x86_64-apple-darwin",
+							"url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/ARM.CMSIS.5.7.0.zip",
+							"archiveFileName": "ARM.CMSIS.5.7.0.zip",
+							"checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
+							"size": "117164633"
+						},
+						{
+							"host": "x86_64-pc-linux-gnu",
+							"url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/ARM.CMSIS.5.7.0.zip",
+							"archiveFileName": "ARM.CMSIS.5.7.0.zip",
+							"checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
+							"size": "117164633"
+						},
+						{
+							"host": "i686-pc-linux-gnu",
+							"url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/ARM.CMSIS.5.7.0.zip",
+							"archiveFileName": "ARM.CMSIS.5.7.0.zip",
+							"checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
+							"size": "117164633"
+						},
+						{
+							"host": "arm-linux-gnueabihf",
+							"url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/ARM.CMSIS.5.7.0.zip",
+							"archiveFileName": "ARM.CMSIS.5.7.0.zip",
+							"checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
+							"size": "117164633"
+						},
+						{
+							"host": "aarch64-linux-gnu",
+							"url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/ARM.CMSIS.5.7.0.zip",
+							"archiveFileName": "ARM.CMSIS.5.7.0.zip",
+							"checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
+							"size": "117164633"
+						},
+						{
+							"host": "all",
+							"url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/ARM.CMSIS.5.7.0.zip",
+							"archiveFileName": "ARM.CMSIS.5.7.0.zip",
+							"checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
+							"size": "117164633"
+						}
+					]
+				},
 				{
 					"name": "CMSIS",
 					"version": "5.4.0",
