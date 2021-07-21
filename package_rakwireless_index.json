@@ -47,8 +47,8 @@
 					"category": "Contributed",
 					"url": "https://github.com/RAKWireless/RAK-nRF52-Arduino/archive/0.22.1.tar.gz?raw=true",
 					"archiveFileName": "RAK-nRF52-Arduino-0.22.1.tar.gz",
-					"checksum": "SHA-256:08C330E8F72C0BE53A4358E59BD31B691A86E515B541BCC93F7FB02D7A94B6D5",
-					"size": "20987408",
+					"checksum": "SHA-256:1378F3D40EEA306AD0148CAAD781D01E3104EF3456FEE531AED2F64E1388DB4A",
+					"size": "19889320",
 					"boards": [
 						{
 							"name": "RAK4631_test"
