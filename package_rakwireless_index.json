@@ -211,8 +211,8 @@
 					"architecture": "esp32",
 					"version": "1.0.5",
 					"category": "ESP32",
-					"url": "https://github.com/RAKWireless/RAK-ESP32-Arduino/archive/refs/tags/1.0.5.zip",
-					"archiveFileName": "RAK-ESP32-Arduino-1.0.5.zip",
+					"url": "https://github.com/RAKWireless/RAK-ESP32-Arduino/archive/refs/tags/1.0.5.tar.gz",
+					"archiveFileName": "RAK-ESP32-Arduino-1.0.5.tar.gz",
 					"checksum": "SHA-256:D4EB2FF21A36C5DEAAB008EAEEC1222047BBE09D4C183CE108585F2805AFD58F",
 					"size": "58058205",
 					"help": {
