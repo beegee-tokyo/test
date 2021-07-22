@@ -209,6 +209,41 @@
 				{
 					"name": "RAKwireless ESP32 Boards",
 					"architecture": "esp32",
+					"version": "1.0.5",
+					"category": "ESP32",
+					"url": "https://github.com/RAKWireless/RAK-ESP32-Arduino/archive/refs/tags/1.0.5.zip",
+					"archiveFileName": "RAK-ESP32-Arduino-1.0.5.zip",
+					"checksum": "SHA-256:D4EB2FF21A36C5DEAAB008EAEEC1222047BBE09D4C183CE108585F2805AFD58F",
+					"size": "58058205",
+					"help": {
+						"online": "https://forum.rakwireless.com/c/wisblock/67"
+					},
+					"boards": [
+						{
+							"name": "RAK11200_test"
+						}
+					],
+					"toolsDependencies": [
+						{
+							"packager": "rak_test",
+							"name": "xtensa-esp32-elf-gcc",
+							"version": "1.22.0-97-gc752ad5-5.2.0"
+						},
+						{
+							"packager": "rak_test",
+							"name": "esptool_py",
+							"version": "3.0.0"
+						},
+						{
+							"packager": "rak_test",
+							"name": "mkspiffs",
+							"version": "0.2.3"
+						}
+					]
+				},
+				{
+					"name": "RAKwireless ESP32 Boards",
+					"architecture": "esp32",
 					"version": "1.0.4",
 					"category": "ESP32",
 					"url": "https://github.com/RAKWireless/RAK-ESP32-Arduino/archive/refs/tags/1.0.4.zip",
