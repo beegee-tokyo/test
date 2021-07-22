@@ -19,6 +19,9 @@
 					"archiveFileName": "RAK-nRF52-Arduino-0.24.0.tar.gz",
 					"checksum": "SHA-256:F1B976C38B3924C9A691E6381D8D48A05C6DF6E30D51B216619B94D1D973FF74",
 					"size": "18990546",
+					"help": {
+						"online": "https://forum.rakwireless.com/c/wisblock/67"
+					},
 					"boards": [
 						{
 							"name": "RAK4631_test"
@@ -213,7 +216,7 @@
 					"checksum": "SHA-256:7010BC7C7D70CD760D5FF35A881937D817E9013030F9E345BBDF8316A975AD8B",
 					"size": "56862225",
 					"help": {
-						"online": "https://forum.rakwireless.com/"
+						"online": "https://forum.rakwireless.com/c/wisblock/67"
 					},
 					"boards": [
 						{
@@ -331,6 +334,51 @@
 					"archiveFileName": "RAK11300-0.0.3.tar.gz",
 					"checksum": "SHA-256:06A6FFD24FA51B23E9F300B897CB70BD3CE58F3E478B525237F338F7507AD1F7",
 					"size": "5181350",
+					"boards": [
+						{
+							"name": "RAK11300_test"
+						}
+					],
+					"toolsDependencies": [
+						{
+							"packager": "rak_test",
+							"name": "openocd",
+							"version": "0.11.0-arduino2"
+						},
+						{
+							"packager": "rak_test",
+							"name": "arm-none-eabi-gcc",
+							"version": "7-2017q4"
+						},
+						{
+							"packager": "rak_test",
+							"name": "bossac",
+							"version": "1.9.1-arduino2"
+						},
+						{
+							"packager": "rak_test",
+							"version": "0.10.0-arduino1",
+							"name": "dfu-util"
+						},
+						{
+							"packager": "rak_test",
+							"version": "1.0.2",
+							"name": "rp2040tools"
+						}
+					]
+				},
+				{
+					"name": "RAKwireless RP Boards",
+					"architecture": "mbed_rp2040",
+					"version": "0.0.4",
+					"category": "Contributed",
+					"url": "https://github.com/RAKWireless/RAK-RP-Arduino/archive/0.0.4.tar.gz?raw=true",
+					"archiveFileName": "RAK11300-0.0.4.tar.gz",
+					"checksum": "SHA-256:B5656AAA847E460660A7E4C1B72FB579C2F10DFE7DFE455F2EF41F5939B01CBA",
+					"size": "23306723",
+					"help": {
+						"online": "https://forum.rakwireless.com/c/wisblock/67"
+					},
 					"boards": [
 						{
 							"name": "RAK11300_test"
