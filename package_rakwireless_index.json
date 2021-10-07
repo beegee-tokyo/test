@@ -1,88 +1,15 @@
 {
 	"packages": [
 		{
-			"name": "rak_test",
+			"name": "rakwireless",
 			"maintainer": "RAKwireless",
 			"websiteURL": "https://RAKwireless.com",
 			"email": "inquiry@RAKwireless.com",
-			"description": "_test Board Support Package for RAKwireless WisBlock Core modules. Checkout examples on https://github.com/RAKWireless/WisBlock/tree/master/examples. Get more information from http://rakwireless.com",
+			"description": "Board Support Package for RAKwireless WisBlock Core modules. Checkout examples on https://github.com/RAKWireless/WisBlock/tree/master/examples. Get more information from http://rakwireless.com",
 			"help": {
 				"online": "https://forum.rakwireless.com"
 			},
 			"platforms": [
-				{
-					"name": "RAKwireless nRF Boards",
-					"architecture": "nrf52",
-					"version": "0.24.0",
-					"category": "Contributed",
-					"url": "https://github.com/RAKWireless/RAK-nRF52-Arduino/archive/0.24.0.tar.gz?raw=true",
-					"archiveFileName": "RAK-nRF52-Arduino-0.24.0.tar.gz",
-					"checksum": "SHA-256:F1B976C38B3924C9A691E6381D8D48A05C6DF6E30D51B216619B94D1D973FF74",
-					"size": "18990546",
-					"help": {
-						"online": "https://forum.rakwireless.com/c/wisblock/67"
-					},
-					"boards": [
-						{
-							"name": "RAK4631_test"
-						},
-						{
-							"name": "RAK4601_test"
-						}
-					],
-					"toolsDependencies": [
-						{
-							"packager": "rak_test",
-							"name": "arm-none-eabi-gcc",
-							"version": "9-2019q4"
-						},
-						{
-							"packager": "rak_test",
-							"name": "nrfjprog",
-							"version": "9.4.0"
-						},
-						{
-							"packager": "rak_test",
-							"name": "CMSIS",
-							"version": "5.7.0"
-						}
-					]
-				},
-				{
-					"name": "RAKwireless nRF Boards",
-					"architecture": "nrf52",
-					"version": "0.22.1",
-					"category": "Contributed",
-					"url": "https://github.com/RAKWireless/RAK-nRF52-Arduino/archive/0.22.1.tar.gz?raw=true",
-					"archiveFileName": "RAK-nRF52-Arduino-0.22.1.tar.gz",
-					"checksum": "SHA-256:1378F3D40EEA306AD0148CAAD781D01E3104EF3456FEE531AED2F64E1388DB4A",
-					"size": "19889320",
-					"boards": [
-						{
-							"name": "RAK4631_test"
-						},
-						{
-							"name": "RAK4601_test"
-						}
-					],
-					"toolsDependencies": [
-						{
-							"packager": "rak_test",
-							"name": "arm-none-eabi-gcc",
-							"version": "9-2019q4"
-						},
-						{
-							"packager": "rak_test",
-							"name": "nrfjprog",
-							"version": "9.4.0"
-						},
-						{
-							"packager": "rak_test",
-							"name": "CMSIS",
-							"version": "5.4.0"
-						}
-					]
-				},
 				{
 					"name": "RAKwireless nRF Boards",
 					"architecture": "nrf52",
@@ -94,20 +21,20 @@
 					"size": "18987705",
 					"boards": [
 						{
-							"name": "RAK4631_test"
+							"name": "RAK4631"
 						},
 						{
-							"name": "RAK4601_test"
+							"name": "RAK4601"
 						}
 					],
 					"toolsDependencies": [
 						{
-							"packager": "rak_test",
+							"packager": "rakwireless",
 							"name": "arm-none-eabi-gcc",
 							"version": "9-2019q4"
 						},
 						{
-							"packager": "rak_test",
+							"packager": "rakwireless",
 							"name": "nrfjprog",
 							"version": "9.4.0"
 						}
@@ -124,23 +51,23 @@
 					"size": "17955135",
 					"boards": [
 						{
-							"name": "RAK4631_test"
+							"name": "RAK4631"
 						},
 						{
-							"name": "RAK4601_test"
+							"name": "RAK4601"
 						},
 						{
-							"name": "RAK5010_test"
+							"name": "RAK5010"
 						}
 					],
 					"toolsDependencies": [
 						{
-							"packager": "rak_test",
+							"packager": "rakwireless",
 							"name": "arm-none-eabi-gcc",
 							"version": "9-2019q4"
 						},
 						{
-							"packager": "rak_test",
+							"packager": "rakwireless",
 							"name": "nrfjprog",
 							"version": "9.4.0"
 						}
@@ -157,20 +84,20 @@
 					"size": "17950953",
 					"boards": [
 						{
-							"name": "RAK4631_test"
+							"name": "RAK4631"
 						},
 						{
-							"name": "RAK4601_test"
+							"name": "RAK4601"
 						}
 					],
 					"toolsDependencies": [
 						{
-							"packager": "rak_test",
+							"packager": "rakwireless",
 							"name": "arm-none-eabi-gcc",
 							"version": "9-2019q4"
 						},
 						{
-							"packager": "rak_test",
+							"packager": "rakwireless",
 							"name": "nrfjprog",
 							"version": "9.4.0"
 						}
@@ -187,20 +114,20 @@
 					"size": "17576699",
 					"boards": [
 						{
-							"name": "RAK4631_test"
+							"name": "RAK4631"
 						},
 						{
-							"name": "RAK4601_test"
+							"name": "RAK4601"
 						}
 					],
 					"toolsDependencies": [
 						{
-							"packager": "rak_test",
+							"packager": "rakwireless",
 							"name": "arm-none-eabi-gcc",
 							"version": "9-2019q4"
 						},
 						{
-							"packager": "rak_test",
+							"packager": "rakwireless",
 							"name": "nrfjprog",
 							"version": "9.4.0"
 						}
@@ -209,33 +136,83 @@
 				{
 					"name": "RAKwireless ESP32 Boards",
 					"architecture": "esp32",
-					"version": "1.0.5",
+					"version": "2.0.0",
 					"category": "ESP32",
-					"url": "https://github.com/RAKWireless/RAK-ESP32-Arduino/archive/refs/tags/1.0.5.tar.gz",
-					"archiveFileName": "RAK-ESP32-Arduino-1.0.5.tar.gz",
-					"checksum": "SHA-256:D4EB2FF21A36C5DEAAB008EAEEC1222047BBE09D4C183CE108585F2805AFD58F",
-					"size": "58058205",
+					"url": "https://github.com/RAKWireless/RAK-ESP32-Arduino/archive/refs/tags/2.0.0.zip",
+					"archiveFileName": "RAK-ESP32-Arduino-2.0.0.zip",
+					"checksum": "SHA-256:10e1c42dbf11d2359259a80008f13f37d2f9bb8f49a25d34d387cf4531052cbc",
+					"size": "139313137",
 					"help": {
-						"online": "https://forum.rakwireless.com/c/wisblock/67"
+						"online": ""
 					},
 					"boards": [
 						{
-							"name": "RAK11200_test"
+							"name": "RAK11200"
 						}
 					],
 					"toolsDependencies": [
 						{
-							"packager": "rak_test",
+							"packager": "rakwireless",
+							"name": "riscv32-esp-elf-gcc",
+							"version": "gcc8_4_0-esp-2021r1"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "xtensa-esp32-elf-gcc",
+							"version": "gcc8_4_0-esp-2021r1"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "xtensa-esp32s2-elf-gcc",
+							"version": "gcc8_4_0-esp-2021r1"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "esptool_py",
+							"version": "3.1.0"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "mkspiffs",
+							"version": "0.2.3"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "mklittlefs",
+							"version": "3.0.0-gnu12-dc7f933"
+						}
+					]
+				},
+				{
+					"name": "RAKwireless ESP32 Boards",
+					"architecture": "esp32",
+					"version": "1.0.5",
+					"category": "ESP32",
+					"url": "https://github.com/RAKWireless/RAK-ESP32-Arduino/archive/refs/tags/1.0.5.zip",
+					"archiveFileName": "RAK-ESP32-Arduino-1.0.5.zip",
+					"checksum": "SHA-256:3F9145C3A840F73B132971B67A7FA5617EFA478FE2EA2A65993398BC60BB0F39",
+					"size": "59748803",
+					"help": {
+						"online": "https://forum.rakwireless.com/"
+					},
+					"boards": [
+						{
+							"name": "RAK11200"
+						}
+					],
+					"toolsDependencies": [
+						{
+							"packager": "rakwireless",
 							"name": "xtensa-esp32-elf-gcc",
 							"version": "1.22.0-97-gc752ad5-5.2.0"
 						},
 						{
-							"packager": "rak_test",
+							"packager": "rakwireless",
 							"name": "esptool_py",
 							"version": "3.0.0"
 						},
 						{
-							"packager": "rak_test",
+							"packager": "rakwireless",
 							"name": "mkspiffs",
 							"version": "0.2.3"
 						}
@@ -251,26 +228,26 @@
 					"checksum": "SHA-256:7010BC7C7D70CD760D5FF35A881937D817E9013030F9E345BBDF8316A975AD8B",
 					"size": "56862225",
 					"help": {
-						"online": "https://forum.rakwireless.com/c/wisblock/67"
+						"online": "https://forum.rakwireless.com/"
 					},
 					"boards": [
 						{
-							"name": "RAK11200_test"
+							"name": "RAK11200"
 						}
 					],
 					"toolsDependencies": [
 						{
-							"packager": "rak_test",
+							"packager": "rakwireless",
 							"name": "xtensa-esp32-elf-gcc",
 							"version": "1.22.0-97-gc752ad5-5.2.0"
 						},
 						{
-							"packager": "rak_test",
+							"packager": "rakwireless",
 							"name": "esptool_py",
 							"version": "3.0.0"
 						},
 						{
-							"packager": "rak_test",
+							"packager": "rakwireless",
 							"name": "mkspiffs",
 							"version": "0.2.3"
 						}
@@ -287,32 +264,32 @@
 					"size": "5134508",
 					"boards": [
 						{
-							"name": "RAK11300_test"
+							"name": "RAK11300"
 						}
 					],
 					"toolsDependencies": [
 						{
-							"packager": "rak_test",
+							"packager": "rakwireless",
 							"name": "openocd",
 							"version": "0.11.0-arduino2"
 						},
 						{
-							"packager": "rak_test",
+							"packager": "rakwireless",
 							"name": "arm-none-eabi-gcc",
 							"version": "7-2017q4"
 						},
 						{
-							"packager": "rak_test",
+							"packager": "rakwireless",
 							"name": "bossac",
 							"version": "1.9.1-arduino2"
 						},
 						{
-							"packager": "rak_test",
+							"packager": "rakwireless",
 							"version": "0.10.0-arduino1",
 							"name": "dfu-util"
 						},
 						{
-							"packager": "rak_test",
+							"packager": "rakwireless",
 							"version": "1.0.2",
 							"name": "rp2040tools"
 						}
@@ -329,32 +306,32 @@
 					"size": "5186541",
 					"boards": [
 						{
-							"name": "RAK11300_test"
+							"name": "RAK11300"
 						}
 					],
 					"toolsDependencies": [
 						{
-							"packager": "rak_test",
+							"packager": "rakwireless",
 							"name": "openocd",
 							"version": "0.11.0-arduino2"
 						},
 						{
-							"packager": "rak_test",
+							"packager": "rakwireless",
 							"name": "arm-none-eabi-gcc",
 							"version": "7-2017q4"
 						},
 						{
-							"packager": "rak_test",
+							"packager": "rakwireless",
 							"name": "bossac",
 							"version": "1.9.1-arduino2"
 						},
 						{
-							"packager": "rak_test",
+							"packager": "rakwireless",
 							"version": "0.10.0-arduino1",
 							"name": "dfu-util"
 						},
 						{
-							"packager": "rak_test",
+							"packager": "rakwireless",
 							"version": "1.0.2",
 							"name": "rp2040tools"
 						}
@@ -371,32 +348,32 @@
 					"size": "5181350",
 					"boards": [
 						{
-							"name": "RAK11300_test"
+							"name": "RAK11300"
 						}
 					],
 					"toolsDependencies": [
 						{
-							"packager": "rak_test",
+							"packager": "rakwireless",
 							"name": "openocd",
 							"version": "0.11.0-arduino2"
 						},
 						{
-							"packager": "rak_test",
+							"packager": "rakwireless",
 							"name": "arm-none-eabi-gcc",
 							"version": "7-2017q4"
 						},
 						{
-							"packager": "rak_test",
+							"packager": "rakwireless",
 							"name": "bossac",
 							"version": "1.9.1-arduino2"
 						},
 						{
-							"packager": "rak_test",
+							"packager": "rakwireless",
 							"version": "0.10.0-arduino1",
 							"name": "dfu-util"
 						},
 						{
-							"packager": "rak_test",
+							"packager": "rakwireless",
 							"version": "1.0.2",
 							"name": "rp2040tools"
 						}
@@ -416,32 +393,77 @@
 					},
 					"boards": [
 						{
-							"name": "RAK11300_test"
+							"name": "RAK11300"
 						}
 					],
 					"toolsDependencies": [
 						{
-							"packager": "rak_test",
+							"packager": "rakwireless",
 							"name": "openocd",
 							"version": "0.11.0-arduino2"
 						},
 						{
-							"packager": "rak_test",
+							"packager": "rakwireless",
 							"name": "arm-none-eabi-gcc",
 							"version": "7-2017q4"
 						},
 						{
-							"packager": "rak_test",
+							"packager": "rakwireless",
 							"name": "bossac",
 							"version": "1.9.1-arduino2"
 						},
 						{
-							"packager": "rak_test",
+							"packager": "rakwireless",
 							"version": "0.10.0-arduino1",
 							"name": "dfu-util"
 						},
 						{
-							"packager": "rak_test",
+							"packager": "rakwireless",
+							"version": "1.0.2",
+							"name": "rp2040tools"
+						}
+					]
+				},
+				{
+					"name": "RAKwireless RP Boards",
+					"architecture": "mbed_rp2040",
+					"version": "0.0.5",
+					"category": "Contributed",
+					"url": "https://github.com/RAKWireless/RAK-RP-Arduino/archive/0.0.5.tar.gz?raw=true",
+					"archiveFileName": "RAK-RP-Arduino-0.0.5.tar.gz",
+					"checksum": "SHA-256:7CE514A875DEC87587790BBC17F6CEBD7269727603AF267393147FE877C7B2DA",
+					"size": "13017403",
+					"help": {
+						"online": "https://forum.rakwireless.com/c/wisblock/67"
+					},
+					"boards": [
+						{
+							"name": "RAK11300"
+						}
+					],
+					"toolsDependencies": [
+						{
+							"packager": "rakwireless",
+							"name": "openocd",
+							"version": "0.11.0-arduino2"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "arm-none-eabi-gcc",
+							"version": "7-2017q4"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "bossac",
+							"version": "1.9.1-arduino2"
+						},
+						{
+							"packager": "rakwireless",
+							"version": "0.10.0-arduino1",
+							"name": "dfu-util"
+						},
+						{
+							"packager": "rakwireless",
 							"version": "1.0.2",
 							"name": "rp2040tools"
 						}
@@ -449,61 +471,6 @@
 				}
 			],
 			"tools": [
-				{
-					"name": "CMSIS",
-					"version": "5.7.0",
-					"systems": [
-						{
-							"host": "i686-mingw32",
-							"url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/ARM.CMSIS.5.7.0.zip",
-							"archiveFileName": "ARM.CMSIS.5.7.0.zip",
-							"checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
-							"size": "117164633"
-						},
-						{
-							"host": "x86_64-apple-darwin",
-							"url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/ARM.CMSIS.5.7.0.zip",
-							"archiveFileName": "ARM.CMSIS.5.7.0.zip",
-							"checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
-							"size": "117164633"
-						},
-						{
-							"host": "x86_64-pc-linux-gnu",
-							"url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/ARM.CMSIS.5.7.0.zip",
-							"archiveFileName": "ARM.CMSIS.5.7.0.zip",
-							"checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
-							"size": "117164633"
-						},
-						{
-							"host": "i686-pc-linux-gnu",
-							"url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/ARM.CMSIS.5.7.0.zip",
-							"archiveFileName": "ARM.CMSIS.5.7.0.zip",
-							"checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
-							"size": "117164633"
-						},
-						{
-							"host": "arm-linux-gnueabihf",
-							"url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/ARM.CMSIS.5.7.0.zip",
-							"archiveFileName": "ARM.CMSIS.5.7.0.zip",
-							"checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
-							"size": "117164633"
-						},
-						{
-							"host": "aarch64-linux-gnu",
-							"url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/ARM.CMSIS.5.7.0.zip",
-							"archiveFileName": "ARM.CMSIS.5.7.0.zip",
-							"checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
-							"size": "117164633"
-						},
-						{
-							"host": "all",
-							"url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/ARM.CMSIS.5.7.0.zip",
-							"archiveFileName": "ARM.CMSIS.5.7.0.zip",
-							"checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
-							"size": "117164633"
-						}
-					]
-				},
 				{
 					"name": "CMSIS",
 					"version": "5.4.0",
@@ -710,6 +677,88 @@
 					"version": "1.0.0"
 				},
 				{
+					"name": "riscv32-esp-elf-gcc",
+					"version": "gcc8_4_0-esp-2021r1",
+					"systems": [
+						{
+							"host": "x86_64-pc-linux-gnu",
+							"url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r1/riscv32-esp-elf-gcc8_4_0-esp-2021r1-linux-amd64.tar.gz",
+							"archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r1-linux-amd64.tar.gz",
+							"checksum": "SHA-256:3459618f33bbd5f54d7d7783e807cb6eef6472a220f2f1eb3faced735b9d13bb",
+							"size": "152812483"
+						},
+						{
+							"host": "arm-linux-gnueabihf",
+							"url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r1/riscv32-esp-elf-gcc8_4_0-esp-2021r1-linux-armel.tar.gz",
+							"archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r1-linux-armel.tar.gz",
+							"checksum": "SHA-256:24b9e54b348bbd5fb816fc4c52abb47337c702beecdbba840750b7cfb9d38069",
+							"size": "151726623"
+						},
+						{
+							"host": "i686-pc-linux-gnu",
+							"url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r1/riscv32-esp-elf-gcc8_4_0-esp-2021r1-linux-i686.tar.gz",
+							"archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r1-linux-i686.tar.gz",
+							"checksum": "SHA-256:954d340ebffef12a2ce9be1ea004e6f45a8863f1e6f41f46fd3f04f58499627c",
+							"size": "155430963"
+						},
+						{
+							"host": "x86_64-apple-darwin",
+							"url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r1/riscv32-esp-elf-gcc8_4_0-esp-2021r1-macos.tar.gz",
+							"archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r1-macos.tar.gz",
+							"checksum": "SHA-256:612fb3a3f84f703222327bd16581df8f80fda8cdf137637fe5d611587d1b664e",
+							"size": "159836199"
+						},
+						{
+							"host": "i686-mingw32",
+							"url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r1/riscv32-esp-elf-gcc8_4_0-esp-2021r1-win32.zip",
+							"archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r1-win32.zip",
+							"checksum": "SHA-256:5711eb407ffe44adddbd1281b6b575a5645e7193ca78faefa27dc5bc5b662bec",
+							"size": "191266312"
+						}
+					]
+				},
+				{
+					"name": "xtensa-esp32-elf-gcc",
+					"version": "gcc8_4_0-esp-2021r1",
+					"systems": [
+						{
+							"host": "x86_64-pc-linux-gnu",
+							"url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r1/xtensa-esp32-elf-gcc8_4_0-esp-2021r1-linux-amd64.tar.gz",
+							"archiveFileName": "xtensa-esp32-elf-gcc8_4_0-esp-2021r1-linux-amd64.tar.gz",
+							"checksum": "SHA-256:44a0b467b9d2b759ab48b2f27aed684581f33c96e2842992781c4e045992c5b0",
+							"size": "86361217"
+						},
+						{
+							"host": "arm-linux-gnueabihf",
+							"url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r1/xtensa-esp32-elf-gcc8_4_0-esp-2021r1-linux-armel.tar.gz",
+							"archiveFileName": "xtensa-esp32-elf-gcc8_4_0-esp-2021r1-linux-armel.tar.gz",
+							"checksum": "SHA-256:fdacdb2a7bbf6293bcafda9b52463a4da8a2f3b7e1df9f83d35ff9d1efa22012",
+							"size": "84520407"
+						},
+						{
+							"host": "i686-pc-linux-gnu",
+							"url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r1/xtensa-esp32-elf-gcc8_4_0-esp-2021r1-linux-i686.tar.gz",
+							"archiveFileName": "xtensa-esp32-elf-gcc8_4_0-esp-2021r1-linux-i686.tar.gz",
+							"checksum": "SHA-256:e2024096492dfaa50fc6ac336cd8faa2e395e8cebb617753eab0b5f16d3dd0dc",
+							"size": "88375391"
+						},
+						{
+							"host": "x86_64-apple-darwin",
+							"url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r1/xtensa-esp32-elf-gcc8_4_0-esp-2021r1-macos.tar.gz",
+							"archiveFileName": "xtensa-esp32-elf-gcc8_4_0-esp-2021r1-macos.tar.gz",
+							"checksum": "SHA-256:7bbc6a2b94f009cd8a3351b9c7acf7a5caa1c4d3700500ead60f84965386a61b",
+							"size": "93357296"
+						},
+						{
+							"host": "i686-mingw32",
+							"url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r1/xtensa-esp32-elf-gcc8_4_0-esp-2021r1-win32.zip",
+							"archiveFileName": "xtensa-esp32-elf-gcc8_4_0-esp-2021r1-win32.zip",
+							"checksum": "SHA-256:e4f9fdda192abfc9807e3e7fcd6e9fea30c1a0cf3f3c5a5c961b5114fc8c9b7e",
+							"size": "105603626"
+						}
+					]
+				},
+				{
 					"name": "xtensa-esp32-elf-gcc",
 					"version": "1.22.0-97-gc752ad5-5.2.0",
 					"systems": [
@@ -795,6 +844,95 @@
 							"host": "arm-linux-gnueabihf",
 							"archiveFileName": "xtensa-esp32-elf-linux-armel-1.22.0-87-gb57bad3-5.2.0.tar.gz",
 							"size": "50655584"
+						}
+					]
+				},
+				{
+					"name": "xtensa-esp32s2-elf-gcc",
+					"version": "gcc8_4_0-esp-2021r1",
+					"systems": [
+						{
+							"host": "x86_64-pc-linux-gnu",
+							"url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r1/xtensa-esp32s2-elf-gcc8_4_0-esp-2021r1-linux-amd64.tar.gz",
+							"archiveFileName": "xtensa-esp32s2-elf-gcc8_4_0-esp-2021r1-linux-amd64.tar.gz",
+							"checksum": "SHA-256:b127baccfe6949ee7eaf3d0782ea772750a9b8e2732b16ce6bcc9dcd91f7209a",
+							"size": "86687290"
+						},
+						{
+							"host": "arm-linux-gnueabihf",
+							"url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r1/xtensa-esp32s2-elf-gcc8_4_0-esp-2021r1-linux-armel.tar.gz",
+							"archiveFileName": "xtensa-esp32s2-elf-gcc8_4_0-esp-2021r1-linux-armel.tar.gz",
+							"checksum": "SHA-256:7ca0d240f11e1c53c01a56257b0c968f876ab405142d1068d8c9b456d939554c",
+							"size": "84916701"
+						},
+						{
+							"host": "i686-pc-linux-gnu",
+							"url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r1/xtensa-esp32s2-elf-gcc8_4_0-esp-2021r1-linux-i686.tar.gz",
+							"archiveFileName": "xtensa-esp32s2-elf-gcc8_4_0-esp-2021r1-linux-i686.tar.gz",
+							"checksum": "SHA-256:9941f993ff84d1c606b45ffbeeb7bcdc5a72cf24e787bb9230390510fe3511c6",
+							"size": "88699953"
+						},
+						{
+							"host": "x86_64-apple-darwin",
+							"url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r1/xtensa-esp32s2-elf-gcc8_4_0-esp-2021r1-macos.tar.gz",
+							"archiveFileName": "xtensa-esp32s2-elf-gcc8_4_0-esp-2021r1-macos.tar.gz",
+							"checksum": "SHA-256:4b55b1a9ca7fc945be6fc3513802b6cece9264bee4cbca76013569cec2695973",
+							"size": "93757895"
+						},
+						{
+							"host": "i686-mingw32",
+							"url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r1/xtensa-esp32s2-elf-gcc8_4_0-esp-2021r1-win32.zip",
+							"archiveFileName": "xtensa-esp32s2-elf-gcc8_4_0-esp-2021r1-win32.zip",
+							"checksum": "SHA-256:c94ec1e45c81b7e4944d216bab4aa41d46849768d7761fd691661dab1a3df828",
+							"size": "106013515"
+						}
+					]
+				},
+				{
+					"name": "esptool_py",
+					"version": "3.1.0",
+					"systems": [
+						{
+							"host": "i686-mingw32",
+							"url": "https://github.com/espressif/arduino-esp32/releases/download/2.0.0-alpha1/esptool-3.1.0-windows.zip",
+							"archiveFileName": "esptool-3.1.0-windows.zip",
+							"checksum": "SHA-256:c9b4f9bc6e94db136c2545c87c00c7ab1441644ca0bac50811bc3c014e22514b",
+							"size": "7411889"
+						},
+						{
+							"host": "x86_64-apple-darwin",
+							"url": "https://github.com/espressif/arduino-esp32/releases/download/2.0.0-alpha1/esptool-3.1.0-macos.tar.gz",
+							"archiveFileName": "esptool-3.1.0-macos.tar.gz",
+							"checksum": "SHA-256:1dffcb884665fb616779aea62a68f517aac251ea6dfe95560906c364d6ef3065",
+							"size": "6776909"
+						},
+						{
+							"host": "x86_64-pc-linux-gnu",
+							"url": "https://github.com/espressif/arduino-esp32/releases/download/2.0.0-alpha1/esptool-3.1.0-linux.tar.gz",
+							"archiveFileName": "esptool-3.1.0-linux.tar.gz",
+							"checksum": "SHA-256:15eca9896a30e804aa24be6f7a06e39397541b8b09a7a4c48deb65f826e7baad",
+							"size": "80550"
+						},
+						{
+							"host": "i686-pc-linux-gnu",
+							"url": "https://github.com/espressif/arduino-esp32/releases/download/2.0.0-alpha1/esptool-3.1.0-linux.tar.gz",
+							"archiveFileName": "esptool-3.1.0-linux.tar.gz",
+							"checksum": "SHA-256:15eca9896a30e804aa24be6f7a06e39397541b8b09a7a4c48deb65f826e7baad",
+							"size": "80550"
+						},
+						{
+							"host": "arm-linux-gnueabihf",
+							"url": "https://github.com/espressif/arduino-esp32/releases/download/2.0.0-alpha1/esptool-3.1.0-linux.tar.gz",
+							"archiveFileName": "esptool-3.1.0-linux.tar.gz",
+							"checksum": "SHA-256:15eca9896a30e804aa24be6f7a06e39397541b8b09a7a4c48deb65f826e7baad",
+							"size": "80550"
+						},
+						{
+							"host": "aarch64-linux-gnu",
+							"url": "https://github.com/espressif/arduino-esp32/releases/download/2.0.0-alpha1/esptool-3.1.0-linux.tar.gz",
+							"archiveFileName": "esptool-3.1.0-linux.tar.gz",
+							"checksum": "SHA-256:15eca9896a30e804aa24be6f7a06e39397541b8b09a7a4c48deb65f826e7baad",
+							"size": "80550"
 						}
 					]
 				},
@@ -925,6 +1063,61 @@
 							"host": "arm-linux-gnueabihf",
 							"archiveFileName": "esptool-2.6.0-linux.tar.gz",
 							"size": "43535"
+						}
+					]
+				},
+				{
+					"version": "3.0.0-gnu12-dc7f933",
+					"name": "mklittlefs",
+					"systems": [
+						{
+							"host": "aarch64-linux-gnu",
+							"url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/3.0.0-gnu12/aarch64-linux-gnu.mklittlefs-c41e51a.200706.tar.gz",
+							"archiveFileName": "aarch64-linux-gnu.mklittlefs-c41e51a.200706.tar.gz",
+							"checksum": "SHA-256:fc56e389383749e4cf4fab0fcf75cc0ebc41e59383caf6c2eff1c3d9794af200",
+							"size": "44651"
+						},
+						{
+							"host": "arm-linux-gnueabihf",
+							"url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/3.0.0-gnu12/arm-linux-gnueabihf.mklittlefs-c41e51a.200706.tar.gz",
+							"archiveFileName": "arm-linux-gnueabihf.mklittlefs-c41e51a.200706.tar.gz",
+							"checksum": "SHA-256:52b642dd0545eb3bd8dfb75dde6601df21700e4867763fd2696274be279294c5",
+							"size": "37211"
+						},
+						{
+							"host": "i686-pc-linux-gnu",
+							"url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/3.0.0-gnu12/i686-linux-gnu.mklittlefs-c41e51a.200706.tar.gz",
+							"archiveFileName": "i686-linux-gnu.mklittlefs-c41e51a.200706.tar.gz",
+							"checksum": "SHA-256:7886051d8ccc54aed0af2e7cdf6ff992bb51638df86f3b545955697720b6d062",
+							"size": "48033"
+						},
+						{
+							"host": "i686-mingw32",
+							"url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/3.0.0-gnu12/i686-w64-mingw32.mklittlefs-c41e51a.200706.zip",
+							"archiveFileName": "i686-w64-mingw32.mklittlefs-c41e51a.200706.zip",
+							"checksum": "SHA-256:43740db30ce451454f2337331f10ab4ed41bd83dbf0fa0cb4387107388b59f42",
+							"size": "332655"
+						},
+						{
+							"host": "x86_64-apple-darwin",
+							"url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/3.0.0-gnu12/x86_64-apple-darwin14.mklittlefs-c41e51a.200706.tar.gz",
+							"archiveFileName": "x86_64-apple-darwin14.mklittlefs-c41e51a.200706.tar.gz",
+							"checksum": "SHA-256:e3edd5e05b70db3c7df6b9d626558348ad04804022fe955c799aeb51808c7dc3",
+							"size": "362608"
+						},
+						{
+							"host": "x86_64-pc-linux-gnu",
+							"url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/3.0.0-gnu12/x86_64-linux-gnu.mklittlefs-c41e51a.200706.tar.gz",
+							"archiveFileName": "x86_64-linux-gnu.mklittlefs-c41e51a.200706.tar.gz",
+							"checksum": "SHA-256:66e84dda0aad747517da3785125e05738a540948aab2b7eaa02855167a1eea53",
+							"size": "46778"
+						},
+						{
+							"host": "x86_64-mingw32",
+							"url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/3.0.0-gnu12/x86_64-w64-mingw32.mklittlefs-c41e51a.200706.zip",
+							"archiveFileName": "x86_64-w64-mingw32.mklittlefs-c41e51a.200706.zip",
+							"checksum": "SHA-256:2e319077491f8e832e96eb4f2f7a70dd919333cee4b388c394e0e848d031d542",
+							"size": "345132"
 						}
 					]
 				},
