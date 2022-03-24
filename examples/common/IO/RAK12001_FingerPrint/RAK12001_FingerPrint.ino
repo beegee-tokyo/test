@@ -6,6 +6,10 @@
  * @date 2021-11-10
  * @copyright Copyright (c) 2021
  */
+#ifdef NRF52_SERIES
+#include <Adafruit_TinyUSB.h>
+#endif
+
 #include "R30X_FPS.h"     // Click to install library: http://librarymanager/All#R30X-Fingerprint-Sensor-Library
 
 //defines

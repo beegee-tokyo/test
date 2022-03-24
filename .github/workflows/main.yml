@@ -96,9 +96,13 @@ jobs:
         mv Proximity_Gesture /home/runner/Arduino/libraries/Proximity_Gesture
         git clone --quiet https://github.com/acrandal/RevEng_PAJ7620
         mv RevEng_PAJ7620 /home/runner/Arduino/libraries/RevEng_PAJ7620
+        git clone --quiet https://github.com/Seeed-Studio/Seeed_LTC2941
+        mv Seeed_LTC2941 /home/runner/Arduino/libraries/Seeed_LTC2941
+        git clone --quiet https://github.com/arduino-libraries/ArduinoMqttClient
+        mv ArduinoMqttClient /home/runner/Arduino/libraries/ArduinoMqttClient
 
         # ESP32 specific libraries
-        
+
         git clone --quiet https://github.com/h2zero/NimBLE-Arduino
         mv NimBLE-Arduino /home/runner/Arduino/libraries/NimBLE-Arduino
         git clone --quiet https://github.com/emelianov/modbus-esp8266
