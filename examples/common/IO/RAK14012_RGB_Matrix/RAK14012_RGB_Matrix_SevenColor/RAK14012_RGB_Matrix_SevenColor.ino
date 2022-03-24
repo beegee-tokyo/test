@@ -6,6 +6,9 @@
    @date 2021-11-29
    @copyright Copyright (c) 2021
 **/
+#ifdef NRF52_SERIES
+#include <Adafruit_TinyUSB.h>
+#endif
 
 #include <Rak_RGB_Matrix.h> // Click to install library: http://librarymanager/All#RAK14012-LED-Matrix
 #include <stdlib.h>
