@@ -107,6 +107,8 @@ jobs:
         mv ESP32Ping /home/runner/Arduino/libraries/ESP32Ping
         git clone --quiet https://github.com/marian-craciunescu/ESP32Ping
         mv ESP32Ping /home/runner/Arduino/libraries/ESP32Ping
+        git clone --quiet https://github.com/vishnumaiea/R30X-Fingerprint-Sensor-Library
+        mv R30X-Fingerprint-Sensor-Library /home/runner/Arduino/libraries/R30X-Fingerprint-Sensor-Library
 
         # RAKwireless libraries
         
