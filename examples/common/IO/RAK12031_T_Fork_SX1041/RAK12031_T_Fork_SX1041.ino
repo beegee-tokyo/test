@@ -8,7 +8,9 @@
    @date 2021-10-18
    @copyright Copyright (c) 2020
 **/
-
+#ifdef NRF52_SERIES
+#include <Adafruit_TinyUSB.h>
+#endif
 // It use WB_IO2 to power up and is conflicting with singal pin, so better use in SlotA/SlotC/SlotD.
 #define SINGAL_PIN          WB_IO1  // Connect with TBF out put pin.  Mount in SLOT A.
 //#define SINGAL_PIN          WB_IO3  // Connect with TBF out put pin.  Mount in SLOT C.
