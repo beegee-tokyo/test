@@ -94,6 +94,8 @@ jobs:
         mv VL53L0X /home/runner/Arduino/libraries/VL53L0X
         git clone --quiet https://github.com/stm32duino/Proximity_Gesture
         mv Proximity_Gesture /home/runner/Arduino/libraries/Proximity_Gesture
+        git clone --quiet https://github.com/acrandal/RevEng_PAJ7620
+        mv Proximity_Gesture /home/runner/Arduino/libraries/RevEng_PAJ7620
 
         # ESP32 specific libraries
         
