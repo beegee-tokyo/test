@@ -3,11 +3,7 @@ name: RAK BSP Arduino Build CI
 on: [pull_request, push, repository_dispatch]
 
 jobs:
-  arduino:
-    strategy:
-      fail-fast: false
-      matrix:
-        arduino-platform: ["rak4631", "rak11200", "rak11300"]
+  build:
 
     runs-on: ubuntu-18.04
     
