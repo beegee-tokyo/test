@@ -80,7 +80,45 @@
             }
           ]
         },
-		{
+        {
+          "name": "RAKwireless RUI STM32 Boards",
+          "architecture": "stm32",
+          "version": "3.5.2-beta",
+          "category": "Contributed",
+          "url": "https://github.com/RAKWireless/RAK-STM32-RUI/archive/refs/tags/v3.5.2b_175.tar.gz",
+          "archiveFileName": "RAK-STM32-RUI-3.5.2b_175.tar.gz",
+          "checksum": "SHA-256:74c578005147d1c48d4726fda6a2a722ed8eb68ff8dee958a274dfdc5491ccc3",
+          "size": "55035729",
+          "boards": [
+            {
+              "name": "RAK3172-E"
+            },
+            {
+              "name": "RAK3272-SiP"
+            },
+            {
+              "name": "RAK3272LP-SiP"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "rak_rui",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "rak_rui",
+              "name": "uploader_ymodem",
+              "version": "1.0.0"
+            },
+            {
+              "packager": "rak_rui",
+              "name": "buildtime",
+              "version": "v0.0.0"
+            }
+          ]
+        },
+        {
           "name": "RAKwireless RUI STM32 Boards",
           "architecture": "stm32",
           "version": "3.5.1",
