@@ -13,6 +13,38 @@
         {
           "name": "RAKwireless RUI Apollo3 Boards",
           "architecture": "apollo3",
+          "version": "3.6.1-beta",
+          "category": "Contributed",
+          "url": "https://rui-build-artifacts-sdk.s3.cn-north-1.amazonaws.com.cn/Release/RUIv3/rui-v3/image/RUI_3.6.1b_202/Arduino_SDK/rui-sdk-master-apollo3.tar.gz",
+          "archiveFileName": "rui-sdk-master-apollo3.tar.gz",
+          "checksum": "SHA-256:3902634e3840b0792b3983f714df93fc7d3dee96cd5424d7b6dd8aa1f2a3785d",
+          "size": "71802983",
+          "boards": [
+            {
+              "name": "RAK11720"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "rak_rui",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "rak_rui",
+              "name": "uploader_ymodem",
+              "version": "1.0.0"
+            },
+            {
+              "packager": "rak_rui",
+              "name": "buildtime",
+              "version": "v0.0.0"
+            }
+          ]
+        },
+        {
+          "name": "RAKwireless RUI Apollo3 Boards",
+          "architecture": "apollo3",
           "version": "3.6.0-beta",
           "category": "Contributed",
           "url": "https://github.com/RAKWireless/RAK-APOLLO3-RUI/archive/refs/tags/v3.6.0b_183.tar.gz",
