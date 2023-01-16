@@ -13,38 +13,6 @@
         {
           "name": "RAKwireless RUI Apollo3 Boards",
           "architecture": "apollo3",
-          "version": "4.0.0",
-          "category": "Contributed",
-          "url": "https://github.com/beegee-tokyo/test/releases/download/0.0.1/rui-sdk-master-apollo3.tar.gz",
-          "archiveFileName": "rui-sdk-master-apollo3.tar.gz",
-          "checksum": "SHA-256:b6c87541641447954ed8c714350de11305facb4d06151b2b10cd2b2297faaf67",
-          "size": "130126483",
-          "boards": [
-            {
-              "name": "RAK11720"
-            }
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "rak_rui",
-              "name": "arm-none-eabi-gcc",
-              "version": "9-2019q4"
-            },
-            {
-              "packager": "rak_rui",
-              "name": "uploader_ymodem",
-              "version": "1.0.0"
-            },
-            {
-              "packager": "rak_rui",
-              "name": "buildtime",
-              "version": "v0.0.0"
-            }
-          ]
-        },
-        {
-          "name": "RAKwireless RUI Apollo3 Boards",
-          "architecture": "apollo3",
           "version": "3.6.1-beta",
           "category": "Contributed",
           "url": "https://github.com/beegee-tokyo/test/releases/download/0.0.0/rui-sdk-master-apollo3.tar.gz",
