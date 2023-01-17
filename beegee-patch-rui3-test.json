@@ -17,8 +17,8 @@
           "category": "Contributed",
           "url": "https://github.com/beegee-tokyo/test/releases/download/0.0.1/rui-sdk-master-apollo3.tar.gz",
           "archiveFileName": "rui-sdk-master-apollo3.tar.gz",
-          "checksum": "SHA-256:b6c87541641447954ed8c714350de11305facb4d06151b2b10cd2b2297faaf67",
-          "size": "130126483",
+          "checksum": "SHA-256:4c3b9b516a8e99d7e8c22080338892e831558c4bb88fe160ba0665ee0a2be134",
+          "size": "130117849",
           "boards": [
             {
               "name": "RAK11720"
