@@ -13,7 +13,7 @@
         {
           "name": "RAKwireless RUI Apollo3 Boards",
           "architecture": "apollo3",
-          "version": "4.0.0_217",
+          "version": "4.0.0217",
           "category": "Contributed",
           "url": "https://github.com/beegee-tokyo/test/releases/download/0.0.2/rui-sdk-master-apollo3.tar.gz",
           "archiveFileName": "rui-sdk-master-apollo3.tar.gz",
@@ -141,7 +141,7 @@
         {
           "name": "RAKwireless RUI STM32 Boards",
           "architecture": "stm32",
-          "version": "4.0.0_217",
+          "version": "4.0.0217",
           "category": "Contributed",
           "url": "https://github.com/beegee-tokyo/test/releases/download/0.0.2/rui-sdk-master-stm32.tar.gz",
           "archiveFileName": "rui-sdk-master-stm32.tar.gz",
@@ -404,7 +404,7 @@
         {
           "name": "RAKwireless RUI nRF Boards",
           "architecture": "nrf52",
-          "version": "4.0.0_217",
+          "version": "4.0.0217",
           "category": "Contributed",
           "url": "https://github.com/beegee-tokyo/test/releases/download/0.0.2/rui-sdk-master-nrf52.tar.gz",
           "archiveFileName": "rui-sdk-master-nrf52.tar.gz",
