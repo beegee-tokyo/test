@@ -2,3 +2,6 @@
 *.bz2
 *.zip
 beegee-local.json
+*.exe
+*.bin
+*.hex
