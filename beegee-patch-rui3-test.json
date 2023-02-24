@@ -17,8 +17,8 @@
 					"category": "Contributed",
 					"url": "https://github.com/beegee-tokyo/test/releases/download/0.0.4/RAK-APOLLO3-RUI-4.0.0_224.tar.gz",
 					"archiveFileName": "RAK-APOLLO3-RUI-4.0.0_224.tar.gz",
-					"checksum": "SHA-256:90381fd9beb65cc7dd8727ac254a402c2386f261096ca79daafcae21e6802bda",
-					"size": "80498784",
+					"checksum": "SHA-256:e344d1555318b95d71b64de4f1240fd6bfc0e1df7f998dc98d2b2e135b7dc470",
+					"size": "80355086",
 					"boards": [
 						{
 							"name": "RAK11720"
@@ -209,8 +209,8 @@
 					"category": "Contributed",
 					"url": "https://github.com/beegee-tokyo/test/releases/download/0.0.4/RAK-STM32-RUI-4.0.0_224.tar.gz",
 					"archiveFileName": "RAK-STM32-RUI-4.0.0_224.tar.gz",
-					"checksum": "SHA-256:2196b741543c002807797c02237621999ba8b1698b0485e2c304490b5eede716",
-					"size": "56695530",
+					"checksum": "SHA-256:439ba6cdbc55440a63c89730df298cf61d0371ee32bfcd0b53b33452c0619995",
+					"size": "55397417",
 					"boards": [
 						{
 							"name": "RAK3172-E"
@@ -548,8 +548,8 @@
 					"category": "Contributed",
 					"url": "https://github.com/beegee-tokyo/test/releases/download/0.0.4/RAK-nRF52-RUI-4.0.0_224.tar.gz",
 					"archiveFileName": "RAK-nRF52-RUI-4.0.0_224.tar.gz",
-					"checksum": "SHA-256:4dab1e3c1b4974318148a7f24ae2e15a37a3c52640dc41138e58135589fa4acf",
-					"size": "79626414",
+					"checksum": "SHA-256:553cbc67bcd3ccb6abdae22dfd3b4368596d7802098b5ea72bc2ea96d3025cc0",
+					"size": "79384367",
 					"boards": [
 						{
 							"name": "RAK4631"
