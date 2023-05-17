@@ -5,3 +5,5 @@ beegee-local.json
 *.exe
 *.bin
 *.hex
+RUI_4.*
+RUI3-*
