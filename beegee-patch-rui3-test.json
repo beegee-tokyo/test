@@ -15,10 +15,10 @@
 					"architecture": "apollo3",
 					"version": "5.0.2",
 					"category": "Contributed",
-					"url": "https://github.com/RAKWireless/RAK-APOLLO3-RUI/archive/refs/tags/v5.0.2_349.tar.gz",
-					"archiveFileName": "RAK-APOLLO3-RUI-5.0.2_349.tar.gz",
-					"checksum": "SHA-256:434890094c0247fa3903c28ba7b5718837a4f1061b902f2fc57a8cee114bf8bb",
-					"size": "78405502",
+					"url": "https://github.com/RAKWireless/RAK-APOLLO3-RUI/archive/refs/tags/v5.0.2_336.tar.gz",
+					"archiveFileName": "RAK-APOLLO3-RUI-5.0.2_336.tar.gz",
+					"checksum": "SHA-256:5255de96e57c1bd9cb9653f5cf41fab91e0400d30be663f70cc52ece81907528",
+					"size": "78404780",
 					"boards": [
 						{
 							"name": "RAK11720"
@@ -335,10 +335,10 @@
 					"architecture": "stm32",
 					"version": "5.0.2",
 					"category": "Contributed",
-					"url": "https://github.com/RAKWireless/RAK-STM32-RUI/archive/refs/tags/v5.0.2_349.tar.gz",
-					"archiveFileName": "RAK-STM32-RUI-5.0.2_349.tar.gz",
-					"checksum": "SHA-256:49590d04bdcb69d2b2d3a135a18b066713c477f6c41ea2ee33e2962d18d0d9a9",
-					"size": "55976388",
+					"url": "https://github.com/RAKWireless/RAK-STM32-RUI/archive/refs/tags/v5.0.2_336.tar.gz",
+					"archiveFileName": "RAK-STM32-RUI-5.0.2_336.tar.gz",
+					"checksum": "SHA-256:50f85a5789a2ec29cbc26ecd009c70a35112dcae65e7d67a9953c0151d4497a4",
+					"size": "55971840",
 					"boards": [
 						{
 							"name": "RAK3172-E"
@@ -1034,10 +1034,10 @@
 					"architecture": "nrf52",
 					"version": "5.0.2",
 					"category": "Contributed",
-					"url": "https://github.com/RAKWireless/RAK-nRF52-RUI/archive/refs/tags/v5.0.2_349.tar.gz",
-					"archiveFileName": "RAK-nRF52-RUI-5.0.2_349.tar.gz",
-					"checksum": "SHA-256:bad8cb4f981c1c9d9a94cb3b142756b1aebc426413f9e0aef7279dfa288104e4",
-					"size": "62853640",
+					"url": "https://github.com/RAKWireless/RAK-nRF52-RUI/archive/refs/tags/v5.0.2_336.tar.gz",
+					"archiveFileName": "RAK-nRF52-RUI-5.0.2_336.tar.gz",
+					"checksum": "SHA-256:0a1280b81ba21168a47b244683e0fd2f857171acdf47183aa21a05873ad8b27d",
+					"size": "62849483",
 					"boards": [
 						{
 							"name": "RAK4631"
